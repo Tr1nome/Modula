@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Horror";
+    src: url("../fonts/CFNightofTerrorPERSONAL-Reg.ttf") format("truetype");
+}
+body {
+    
+    
+    min-width: 40px;
+    overflow-x: hidden;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar .nav-link{
+    
+    font-size: 1.2rem;
+    color: white;
+}
+.navbar-brand{
+    font-family: Horror;
+    font-size: 2rem;
+    color:red;
+}
+
+.navbar-brand:hover{
+    font-family: Horror;
+    font-size: 2rem;
+    color:red;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 120px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .titles{
+    font-family: Horror;
+      color:red;
+      
+  }
+  div.desc {
+    /*padding: 15px;*/
+    text-align: center;
+  }
+
+.presentation .titles .site{
+    font-size: 5rem;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+.presentation .titles .phrase{
+    font-size: 1rem;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+.separator{
+    width: 100vw;
+    height: 300px;
+}
+.description{
+    width: 100vw;
+    height: 100px;
+    padding: 15px;
+    font-size: 25px;
+}
+.connexion {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 1rem solid;
+    font-size: 2rem;
+}
+.prestation-row{
+    position: relative;
+}
+.prestation-row .modif-row{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+}
+
+footer{
+	height:18vh;
+background-color:black;
+color:white;
+overflow:hidden;
+
+}
